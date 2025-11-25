@@ -1,0 +1,13 @@
+Patient Name: Karan Yadav
+DOB: 12/03/1999
+Medical Condition: Type 2 Diabetes
+Prescription: Metformin 500mg daily
+Doctor: Dr. R. Verma
+Patient ID: MED-4456-8899
+
+Patient Name: Sakshi Gupta
+DOB: 05/10/2002
+Medical Condition: Migraine
+Prescription: Sumatriptan 50mg
+Doctor: Dr. S. Sharma
+Patient ID: MED-1122-3344
