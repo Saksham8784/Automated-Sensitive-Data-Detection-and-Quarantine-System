@@ -72,7 +72,7 @@ To solve this, we implement a ***serverless auto-remediation pipeline*** using:
 * **SNS** (Notifications to subscribers)  
 * **CloudWatch** (Logs & Monitoring)
 
-![][image1]
+<img width="2048" height="1280" alt="Architecture S3 Detection" src="https://github.com/user-attachments/assets/6677d9e3-c930-4688-82f6-f258e5072bcf" />
 
 # **Setup Steps(BEGINNING → END)**
 
