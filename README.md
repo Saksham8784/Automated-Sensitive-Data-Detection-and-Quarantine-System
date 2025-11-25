@@ -25,7 +25,6 @@ To solve this, we implement a ***serverless auto-remediation pipeline*** using:
 
 **Amazon S3** — Stores user-uploaded files and the quarantined sensitive files.  
 **Amazon Macie** — Automatically scans S3 objects to detect sensitive data like PII, PAN, Aadhaar, and credit card numbers.  
-**AWS Security Hub** — Aggregates Macie findings and standardizes them for automated workflows.  
 **Amazon EventBridge** — Routes Macie findings to SNS for alerts and to Lambda for auto-remediation.  
 **AWS Lambda** — Performs automatic quarantine by copying sensitive files to a secure bucket and deleting originals.  
 **Amazon SNS** — Sends instant email alerts when Macie detects sensitive files.  
